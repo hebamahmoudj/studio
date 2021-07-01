@@ -1,0 +1,177 @@
+/* start section2 */
+* {
+  box-sizing: border-box;
+}
+
+/* header */
+.home {
+  background-image: url(../img/header-bg.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+}
+.logo {
+  color: #fed136 !important;
+  font-size: 1.8rem;
+  font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+  text-decoration: underline;
+}
+.navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 1.1em 1em !important;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* header */
+.advisor {
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.ovelay-advisor {
+  position: absolute;
+  top: -100%;
+  bottom: 100%;
+  left: 15px;
+  right: 15px;
+  background-color: rgba(0, 33, 71, 0.7);
+  height: 90%;
+  width: 90%;
+  transition: all 700ms ease 0.35s;
+  /* transition: all 4s ease-in-out; */
+  /* z-index: 1; */
+}
+.advisor-info {
+  background-color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  transition: all 800ms ease 0.35s;
+
+  /* font-weight: 500; */
+  /* text-transform: capitalize; */
+}
+.advisor-info h4 {
+  color: #002147;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.advisor-info p {
+  color: #ffb606;
+}
+.advisor a {
+  color: #ffb606;
+}
+.advisor:hover .ovelay-advisor {
+  top: 4%;
+}
+.advisor:hover .advisor-info {
+  bottom: -100%;
+}
+
+.advisor:hover {
+  border-bottom: -100%;
+}
+/* end section2  */
+/* start section3  */
+.category {
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+.ovelay-category {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+  transition: all 1s;
+  /* transition: all 4s ease-in-out; */
+  /* z-index: 1; */
+}
+
+.card1 {
+  background-color: #337ab7;
+}
+
+.card2 {
+  background-color: #1ec1d9;
+}
+
+.card3 {
+  background-color: #10c45c;
+}
+
+.card4 {
+  background-color: #47c58e;
+}
+
+.card5 {
+  background-color: #f9bd44;
+}
+
+.card6 {
+  background-color: #e948ae;
+}
+
+.card7 {
+  background-color: #e84b3a;
+}
+
+.card8 {
+  background-color: #92278f;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover,
+.card7:hover,
+.card8:hover {
+  opacity: 0.5;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.card {
+  border-width: 0px;
+  text-align: center;
+}
+/* end section3  */
+/* start section4 */
+.portfolio {
+  position: relative;
+}
+.portfolio .ovelay-portfolio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f9bd44;
+  opacity: 0;
+  transition: all 1s;
+}
+.portfolio:hover .ovelay-portfolio {
+  opacity: 0.9;
+}
+.footer-bg {
+  background-image: url(../img/img-map.JPG);
+  background-size: 100% 100%;
+}
+
+/* end section4 */
